@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Getting Started with Movie Library Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Fork this repository
+2. Clone your forked copy of the project
+3. Navigate to the project directory cd Movie-website
+4. And run "npm start" to run the application 
 
 ## Available Scripts
 
