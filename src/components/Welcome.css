@@ -45,7 +45,9 @@
   
   .forgot-password {
     display: block;
+    padding: 10px 50px;
     margin-bottom: 20px;
+    background-color: #FFF;
     color: #999;
     text-decoration: none;
   }

@@ -46,12 +46,12 @@ const Welcome = () => {
               required
             />
           </div>
-          <a href="#" className="forgot-password">Forgot password?</a>
+          <button className="forgot-password">Forgot password?</button>
           <button type="submit" className="signin-button">Sign In</button>
         </form>
       </div>
       <div className="welcome-right">
-        <h2>Don't have an account? Please Sign up!</h2>
+        <h2>New Here ? Sign up !</h2>
         <button onClick={handleSignUp} className="signup-button">Sign Up</button>
       </div>
     </div>
