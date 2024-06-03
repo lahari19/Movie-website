@@ -1,0 +1,99 @@
+/* MovieCard.css */
+.movie-card {
+  position: relative;
+  width: 200px; /* Adjust the width to make it square */
+  height: 300px; /* Ensure the height matches the width */
+  margin: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s, width 0.3s, height 0.3s; /* Add width and height to the transition */
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  width: 230px; /* Adjust the width on hover */
+  height: 380px; /* Adjust the height on hover */
+}
+
+.movie-poster {
+  width: 100%;
+  height: 100%; /* Adjust height to fill the square card */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+.movie-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s;
+}
+
+.movie-card:hover .movie-details {
+  opacity: 1; /* Show details on hover */
+}
+
+.movie-info {
+  text-align: left;
+}
+
+.movie-description {
+  text-align: left;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating span {
+  margin-right: 5px;
+}
+
+.genres {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.genre {
+  background-color: #e50914;
+  color: white;
+  padding: 2px 5px;
+  margin: 2px;
+  border-radius: 3px;
+  font-size: 0.8em;
+}
+
+.cast {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.actor {
+  background-color: #555;
+  color: white;
+  padding: 2px 4px;
+  margin: 1px;
+  border-radius: 3px;
+  font-size: 0.7em;
+}
+
+button {
+  background-color: #68f695;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}

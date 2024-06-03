@@ -1,0 +1,79 @@
+/* Home.css */
+.home-container {
+  text-align: center;
+  background-color: #13183a;
+  /*padding: 20px;*/
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #2a3048;
+  color: white;
+}
+
+.search-form {
+  margin: 20px 0;
+}
+
+.search-form input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #e50914;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin: 20px 0;
+}
+
+.movie-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.playlist-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #FFF;
+}
+
+.playlist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.playlist-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.playlist-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.logout-link {
+  color: white;
+  text-decoration: none;
+}
