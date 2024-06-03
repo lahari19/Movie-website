@@ -10,7 +10,7 @@ option where they can search movies and see details of those movies.
 1. Fork this repository
 2. Clone your forked copy of the project
 3. Navigate to the project directory by "cd Movie-website"
-4. And run "npm start" to run the application 
+4. And type "npm start" to run the application 
 
 ## Available Scripts
 
