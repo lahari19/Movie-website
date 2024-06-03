@@ -1,8 +1,11 @@
+# About the project
+
+
 # Getting Started with Movie Library Website
 
 1. Fork this repository
 2. Clone your forked copy of the project
-3. Navigate to the project directory cd Movie-website
+3. Navigate to the project directory by "cd Movie-website"
 4. And run "npm start" to run the application 
 
 ## Available Scripts
