@@ -1,5 +1,9 @@
-# About the project
-
+# A movie library web application
+1. Having a user authentication ( Sign In/ Sign Up )
+2. After logging in users will be navigated to the home screen where they should see a search
+option where they can search movies and see details of those movies.
+3. They can create a movie playlist by adding the movies to lists.
+4. Used OMDB API for the movie search option.
 
 # Getting Started with Movie Library Website
 
